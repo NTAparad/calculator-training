@@ -1,20 +1,20 @@
 class Calculator {
   calculate(number1, number2, method) {
-    method.cal();
+    return method.cal(number1, number2);
   }
-}
+};
 
 class Addition {
   cal(number1, number2){
     return number1 + number2;
   }
-}
+};
 
 class Subtraction {
   cal(number1, number2){
     return number1 - number2;
   }
-}
+};
 
 class Division  {
   cal(number1, number2){
@@ -43,3 +43,4 @@ console.log(abc);
 let division = new Division();
 
 let def = calculator.calculate(12, 13, division);
+console.log(def);
