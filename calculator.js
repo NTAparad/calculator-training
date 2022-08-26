@@ -39,3 +39,7 @@ let addition = new Addition();
 
 let abc = calculator.calculate(12, 13, addition);
 console.log(abc);
+
+let division = new Division();
+
+let def = calculator.calculate(12, 13, division);
